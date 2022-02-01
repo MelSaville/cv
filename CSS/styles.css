@@ -1,0 +1,95 @@
+body {
+  background-color: #AAD8D3;
+}
+
+img {
+  height: 150px
+}
+
+.my-header
+  h2 {
+  display: inline;
+}
+.my-header span {
+  float: after h2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #38A3A5;
+  border-width: 5px;
+  width: 10%;
+}
+
+p {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #38A3A5;
+  font-weight: bold;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: #D885A3;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+table {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+th {
+  color: #22577A;
+  font-family: Trebuchet MS, Arial, sans-serif;
+}
+
+h1 {
+  color: #22577A;
+  font-family: Trebuchet MS, Arial, sans-serif;
+}
+
+h2 {
+  color: #393E46;
+  font-family: Trebuchet MS, Arial, sans-serif;
+}
+
+h3 {
+  color: #393E46;
+  font-family: Trebuchet MS, Arial, sans-serif;
+}
+
+form {color: white;
+font-family: Helvetica, Arial, sans-serif;
+}
